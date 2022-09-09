@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_09_015306) do
+ActiveRecord::Schema[7.0].define(version: 2022_09_09_033954) do
   create_table "shows", force: :cascade do |t|
-    t.bigint "show_id"
+    t.text "show_id"
     t.text "show_type"
     t.text "title"
     t.text "director"
